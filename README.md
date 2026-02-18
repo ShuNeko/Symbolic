@@ -1,7 +1,7 @@
 # Kana Quiz
 Kana Quiz made with React.js.
 
-See live at https://kana.pro/
+See live at [UFE](http://ufe.ddns.net/shu/Symbolic/)
 
 
 Install deps: `npm install`
