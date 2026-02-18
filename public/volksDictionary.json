@@ -1,7 +1,10 @@
 {
   "volks": {
     "beta_1": {
-      "characters": { "Bhou": ["ah","oh"], "Shu": ["neko"], "Kijetesantakalu": ["lilon"] }
+      "characters": { "Bhou": ["ah","oh"], "Shu": ["neko"], "Kijetesantakalu": ["lilon"] } 
+    },
+    "formules_matrices_l": {
+      "characters": { "(AB)_{ij}": ["\\sum_{k=1}^{p} a_{ik} b_{kj}","Formule du produit matriciel"], "(AX)_i": ["\\sum_{j=1}^{p} a_{ij} x_j","Produit matrice × vecteur"], "(A+B)_{ij}": ["a_{ij} + b_{ij}","Addition de matrices"], "(\\lambda A)_{ij}": ["\\lambda a_{ij}","Produit par un scalaire"], "A(BC)": ["(AB)C","Associativité du produit matriciel"], "A(B+C)": ["AB + AC","Distributivité à gauche"], "(A+B)C": ["AC + BC","Distributivité à droite"], "AI_n": ["A","Élément neutre du produit matriciel"], "I_nA": ["A","Élément neutre du produit matriciel"], "A^0": ["I_n","Définition des puissances d’une matrice"], "(A+B)^n": ["\\sum_{k=0}^{n} \\binom{n}{k} A^k B^{n-k}","Binôme de Newton (si AB = BA)"], "f_A(X)": ["AX","Application linéaire canoniquement associée"], "f_A(X+Y)": ["f_A(X) + f_A(Y)","Linéarité (additivité)"], "f_A(\\lambda X)": ["\\lambda f_A(X)","Linéarité (homogénéité)"], "\\text{Mat}(g \\circ f)": ["\\text{Mat}(g) \\times \\text{Mat}(f)","Compatibilité produit/composition"], "AA^{-1}": ["I_n","Définition d’une matrice inversible"], "(AB)^{-1}": ["B^{-1}A^{-1}","Inverse d’un produit"], "f \\text{ injective }": ["\\ker(f)=\\{0\\}","Caractérisation de l’injectivité"], "f \\text{ surjective }": ["\\text{Im}(f)=K^n","Caractérisation de la surjectivité"], "\\dim(\\ker(f)) + \\dim(\\text{Im}(f))": ["p","Théorème du rang"], "A \\text{ inversible }": ["rg(A)=n","Caractérisation par le rang"] }
     }
   }
 }
