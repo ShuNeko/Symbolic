@@ -350,6 +350,33 @@
         "\\text{Intersection cercle-droite selon } d(\\Omega,(D)) \\lesseqgtr R": ["\\text{Si } d(\\Omega,(D)) < R : 2 \\text{ points}; = R : 1 \\text{ point (tangente)}; > R : \\text{vide}", "Intersection cercle-droite"],
         "\\text{Intersection cercle-cercle : soustraire les équations pour se ramener à une droite}": ["\\text{Intersection cercle-cercle : soustraire les équations pour se ramener à une droite}", "Méthode d'intersection de deux cercles"]
       }
+    },
+    "formules_equations_differentielles_l": {
+      "characters": {
+        "a_n(x) y^{(n)} + \\dots + a_1(x) y' + a_0(x) y = b(x)": ["a_n(x) y^{(n)} + \\dots + a_1(x) y' + a_0(x) y = b(x)", "Forme générale d'une équation différentielle linéaire"],
+        "y' + a y = B(x)": ["y' + a y = B(x)", "Équation différentielle linéaire d'ordre 1 à coefficients constants"],
+        "a y'' + b y' + c y = B(x)": ["a y'' + b y' + c y = B(x)", "Équation différentielle linéaire d'ordre 2 à coefficients constants"],
+        "y' + a y = 0": ["y' + a y = 0", "Équation homogène associée (ordre 1)"],
+        "a y'' + b y' + c y = 0": ["a y'' + b y' + c y = 0", "Équation homogène associée (ordre 2)"],
+        "y_E = y_H + y_{\\text{part}}": ["y_E = y_H + y_{\\text{part}}", "Structure de la solution générale"],
+        "y_H = K e^{-a x}, \\ K \\in \\mathbb{K}": ["y_H = K e^{-a x}, \\ K \\in \\mathbb{K}", "Solution générale de l'équation homogène d'ordre 1"],
+        "r + a = 0": ["r + a = 0", "Équation caractéristique (ordre 1)"],
+        "a r^2 + b r + c = 0": ["a r^2 + b r + c = 0", "Équation caractéristique (ordre 2)"],
+        "y = e^{r x} \\text{ est solution de } (H) \\iff r \\text{ racine de l'équation caractéristique}": ["y = e^{r x} \\text{ est solution de } (H) \\iff r \\text{ racine de l'équation caractéristique}", "Condition de solution exponentielle"],
+        "y_H = A e^{r_1 x} + B e^{r_2 x}, \\ (A,B)\\in\\mathbb{K}^2": ["y_H = A e^{r_1 x} + B e^{r_2 x}, \\ (A,B)\\in\\mathbb{K}^2", "Deux racines réelles distinctes"],
+        "y_H = (Ax + B) e^{r_0 x}, \\ (A,B)\\in\\mathbb{K}^2": ["y_H = (Ax + B) e^{r_0 x}, \\ (A,B)\\in\\mathbb{K}^2", "Racine double"],
+        "y_H = e^{u x} (A \\cos(v x) + B \\sin(v x)), \\ (A,B)\\in\\mathbb{R}^2": ["y_H = e^{u x} (A \\cos(v x) + B \\sin(v x)), \\ (A,B)\\in\\mathbb{R}^2", "Racines complexes conjuguées (coeff réels)"],
+        "y_H = e^{u x} A \\cos(v x + \\varphi)": ["y_H = e^{u x} A \\cos(v x + \\varphi)", "Forme alternative pour racines complexes"],
+        "y_1 \\text{ solution de } (E_1),\\ y_2 \\text{ solution de } (E_2) \\Rightarrow y_1+y_2 \\text{ solution de } (E) \\text{ avec second membre } B_1+B_2": ["y_1 \\text{ solution de } (E_1),\\ y_2 \\text{ solution de } (E_2) \\Rightarrow y_1+y_2 \\text{ solution de } (E) \\text{ avec second membre } B_1+B_2", "Principe de superposition"],
+        "y_{\\text{part}} \\text{ cherchée sous forme constante ou polynôme de même degré que } B(x)": ["y_{\\text{part}} \\text{ cherchée sous forme constante ou polynôme de même degré que } B(x)", "Méthode pour second membre constant ou polynomial"],
+        "y_{\\text{part}} = B e^{\\alpha x} \\text{ (éventuellement multiplié par } x \\text{ si } \\alpha \\text{ racine de l'équation caractéristique)}": ["y_{\\text{part}} = B e^{\\alpha x} \\text{ (éventuellement multiplié par } x \\text{ si } \\alpha \\text{ racine de l'équation caractéristique)}", "Méthode pour second membre exponentiel"],
+        "y_{\\text{part}} = \\alpha \\cos(\\omega x) + \\beta \\sin(\\omega x) \\text{ (éventuellement multiplié par } x \\text{ si } i\\omega \\text{ racine)}": ["y_{\\text{part}} = \\alpha \\cos(\\omega x) + \\beta \\sin(\\omega x) \\text{ (éventuellement multiplié par } x \\text{ si } i\\omega \\text{ racine)}", "Méthode pour second membre trigonométrique"],
+        "\\text{Problème de Cauchy ordre 1 : } \\exists! \\text{ solution avec } y(x_0)=y_0": ["\\text{Problème de Cauchy ordre 1 : } \\exists! \\text{ solution avec } y(x_0)=y_0", "Existence et unicité pour condition initiale"],
+        "\\text{Problème de Cauchy ordre 2 : } \\exists! \\text{ solution avec } y(x_0)=y_0,\\ y'(x_0)=y_0'": ["\\text{Problème de Cauchy ordre 2 : } \\exists! \\text{ solution avec } y(x_0)=y_0,\\ y'(x_0)=y_0'", "Existence et unicité pour conditions initiales"],
+        "f'(t_0) = x'(t_0) + i y'(t_0) \\text{ si } f(t)=x(t)+iy(t)": ["f'(t_0) = x'(t_0) + i y'(t_0)", "Dérivée d'une fonction à valeurs complexes"],
+        "(e^{\\alpha t})' = \\alpha e^{\\alpha t} \\ (\\alpha \\in \\mathbb{C})": ["(e^{\\alpha t})' = \\alpha e^{\\alpha t} \\ (\\alpha \\in \\mathbb{C})", "Dérivée de l'exponentielle complexe"],
+        "y = x^2 + kx, \\ k \\in \\mathbb{R}": ["y = x^2 + kx, \\ k \\in \\mathbb{R}", "Exemple de solution générale (E1: x y' - y = x^2)"]
+      }
     }
   }
 }
