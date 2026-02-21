@@ -32,7 +32,7 @@
         "A \\text{ inversible }": ["rg(A)=n", "Caractérisation par le rang"]
       }
     },
-    "formules_outils": {
+    "formules_outils_l": {
       "characters": {
         "a \\leq b \\text{ et } c \\leq d": ["a + c \\leq b + d", "Addition membre à membre"],
         "0 \\leq a \\leq b \\text{ et } 0 \\leq c \\leq d": ["ac \\leq bd", "Multiplication membre à membre avec des positifs"],
