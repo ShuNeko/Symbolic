@@ -1,10 +1,92 @@
 {
   "volks": {
     "beta_1": {
-      "characters": { "Bhou": ["ah","oh"], "Shu": ["neko"], "Kijetesantakalu": ["lilon"] } 
+      "characters": {
+        "Bhou": ["ah", "oh"],
+        "Shu": ["neko"],
+        "Kijetesantakalu": ["lilon"]
+      }
     },
     "formules_matrices_l": {
-      "characters": { "(AB)_{ij}": ["\\sum_{k=1}^{p} a_{ik} b_{kj}","Formule du produit matriciel"], "(AX)_i": ["\\sum_{j=1}^{p} a_{ij} x_j","Produit matrice × vecteur"], "(A+B)_{ij}": ["a_{ij} + b_{ij}","Addition de matrices"], "(\\lambda A)_{ij}": ["\\lambda a_{ij}","Produit par un scalaire"], "A(BC)": ["(AB)C","Associativité du produit matriciel"], "A(B+C)": ["AB + AC","Distributivité à gauche"], "(A+B)C": ["AC + BC","Distributivité à droite"], "AI_n": ["A","Élément neutre du produit matriciel"], "I_nA": ["A","Élément neutre du produit matriciel"], "A^0": ["I_n","Définition des puissances d’une matrice"], "(A+B)^n": ["\\sum_{k=0}^{n} \\binom{n}{k} A^k B^{n-k}","Binôme de Newton (si AB = BA)"], "f_A(X)": ["AX","Application linéaire canoniquement associée"], "f_A(X+Y)": ["f_A(X) + f_A(Y)","Linéarité (additivité)"], "f_A(\\lambda X)": ["\\lambda f_A(X)","Linéarité (homogénéité)"], "\\text{Mat}(g \\circ f)": ["\\text{Mat}(g) \\times \\text{Mat}(f)","Compatibilité produit/composition"], "AA^{-1}": ["I_n","Définition d’une matrice inversible"], "(AB)^{-1}": ["B^{-1}A^{-1}","Inverse d’un produit"], "f \\text{ injective }": ["\\ker(f)=\\{0\\}","Caractérisation de l’injectivité"], "f \\text{ surjective }": ["\\text{Im}(f)=K^n","Caractérisation de la surjectivité"], "\\dim(\\ker(f)) + \\dim(\\text{Im}(f))": ["p","Théorème du rang"], "A \\text{ inversible }": ["rg(A)=n","Caractérisation par le rang"] }
+      "characters": {
+        "(AB)_{ij}": ["\\\\sum_{k=1}^{p} a_{ik} b_{kj}", "Formule du produit matriciel"],
+        "(AX)_i": ["\\\\sum_{j=1}^{p} a_{ij} x_j", "Produit matrice × vecteur"],
+        "(A+B)_{ij}": ["a_{ij} + b_{ij}", "Addition de matrices"],
+        "(\\\\lambda A)_{ij}": ["\\\\lambda a_{ij}", "Produit par un scalaire"],
+        "A(BC)": ["(AB)C", "Associativité du produit matriciel"],
+        "A(B+C)": ["AB + AC", "Distributivité à gauche"],
+        "(A+B)C": ["AC + BC", "Distributivité à droite"],
+        "AI_n": ["A", "Élément neutre du produit matriciel"],
+        "I_nA": ["A", "Élément neutre du produit matriciel"],
+        "A^0": ["I_n", "Définition des puissances d’une matrice"],
+        "(A+B)^n": ["\\\\sum_{k=0}^{n} \\\\binom{n}{k} A^k B^{n-k}", "Binôme de Newton (si AB = BA)"],
+        "f_A(X)": ["AX", "Application linéaire canoniquement associée"],
+        "f_A(X+Y)": ["f_A(X) + f_A(Y)", "Linéarité (additivité)"],
+        "f_A(\\\\lambda X)": ["\\\\lambda f_A(X)", "Linéarité (homogénéité)"],
+        "\\\\text{Mat}(g \\\\circ f)": ["\\\\text{Mat}(g) \\\\times \\\\text{Mat}(f)", "Compatibilité produit/composition"],
+        "AA^{-1}": ["I_n", "Définition d’une matrice inversible"],
+        "(AB)^{-1}": ["B^{-1}A^{-1}", "Inverse d’un produit"],
+        "f \\\\text{ injective }": ["\\\\ker(f)=\\\\{0\\\\}", "Caractérisation de l’injectivité"],
+        "f \\\\text{ surjective }": ["\\\\text{Im}(f)=K^n", "Caractérisation de la surjectivité"],
+        "\\\\dim(\\\\ker(f)) + \\\\dim(\\\\text{Im}(f))": ["p", "Théorème du rang"],
+        "A \\\\text{ inversible }": ["rg(A)=n", "Caractérisation par le rang"]
+      }
+    },
+    "formules_outils_l": {
+      "characters": {
+        "a \\\\leq b \\\\text{ et } c \\\\leq d": ["a + c \\\\leq b + d", "Addition membre à membre"],
+        "0 \\\\leq a \\\\leq b \\\\text{ et } 0 \\\\leq c \\\\leq d": ["ac \\\\leq bd", "Multiplication membre à membre avec des positifs"],
+        "k > 0, a \\\\leq b": ["ka \\\\leq kb", "Multiplier par un réel positif ne change pas le sens"],
+        "k < 0, a \\\\leq b": ["ka \\\\geq kb", "Multiplier par un réel négatif change le sens"],
+        "a \\\\leq b, f \\\\text{ croissante}": ["f(a) \\\\leq f(b)", "Fonction croissante"],
+        "a \\\\leq b, f \\\\text{ décroissante}": ["f(a) \\\\geq f(b)", "Fonction décroissante"],
+        "0 \\\\leq a \\\\leq b": ["a^2 \\\\leq b^2", "Carré de nombres positifs"],
+        "a \\\\leq b < 0": ["a^2 \\\\geq b^2", "Carré de nombres négatifs"],
+        "0 < a \\\\leq b": ["\\\\frac{1}{a} \\\\geq \\\\frac{1}{b}", "Inverse de nombres positifs"],
+        "a \\\\leq b < 0": ["\\\\frac{1}{a} \\\\geq \\\\frac{1}{b}", "Inverse de nombres négatifs"],
+        "[a,b]": ["\\\\{x \\\\in \\\\mathbb{R} \\\\mid a \\\\leq x \\\\leq b\\\\}", "Intervalle fermé"],
+        "[a,b[": ["\\\\{x \\\\in \\\\mathbb{R} \\\\mid a \\\\leq x < b\\\\}", "Intervalle semi-ouvert à droite"],
+        "]a,b]": ["\\\\{x \\\\in \\\\mathbb{R} \\\\mid a < x \\\\leq b\\\\}", "Intervalle semi-ouvert à gauche"],
+        "]a,b[": ["\\\\{x \\\\in \\\\mathbb{R} \\\\mid a < x < b\\\\}", "Intervalle ouvert"],
+        "[a,+\\\\infty[": ["\\\\{x \\\\in \\\\mathbb{R} \\\\mid x \\\\geq a\\\\}", "Intervalle fermé à gauche"],
+        "]a,+\\\\infty[": ["\\\\{x \\\\in \\\\mathbb{R} \\\\mid x > a\\\\}", "Intervalle ouvert à gauche"],
+        "]-\\\\infty,a]": ["\\\\{x \\\\in \\\\mathbb{R} \\\\mid x \\\\leq a\\\\}", "Intervalle fermé à droite"],
+        "]-\\\\infty,a[": ["\\\\{x \\\\in \\\\mathbb{R} \\\\mid x < a\\\\}", "Intervalle ouvert à droite"],
+        "\\\\mathbb{R}": ["]-\\\\infty,+\\\\infty[", "Ensemble des réels"],
+        "\\\\emptyset": ["\\\\emptyset", "Ensemble vide"],
+        "\\\\{a\\\\}": ["\\\\{a\\\\}", "Singleton"],
+        "I \\\\cap J": ["\\\\{x \\\\in \\\\mathbb{R} \\\\mid x \\\\in I \\\\text{ et } x \\\\in J\\\\}", "Intersection de deux intervalles"],
+        "I \\\\cup J": ["\\\\{x \\\\in \\\\mathbb{R} \\\\mid x \\\\in I \\\\text{ ou } x \\\\in J\\\\}", "Union de deux intervalles"],
+        "|x|": ["\\\\begin{cases} x & \\\\text{si } x > 0 \\\\\\\\ 0 & \\\\text{si } x = 0 \\\\\\\\ -x & \\\\text{si } x < 0 \\\\end{cases}", "Définition de la valeur absolue"],
+        "|x| = \\\\max(x,-x)": ["|x| = \\\\max(x,-x)", "Propriété"],
+        "x \\\\leq |x|": ["x \\\\leq |x|", "Conséquence"],
+        "|-x| = |x|": ["|-x| = |x|", "Propriété"],
+        "|xy| = |x||y|": ["|xy| = |x|\\\\,|y|", "Propriété"],
+        "\\\\left|\\\\frac{x}{y}\\\\right| = \\\\frac{|x|}{|y|}": ["\\\\left|\\\\frac{x}{y}\\\\right| = \\\\frac{|x|}{|y|}", "Propriété (y ≠ 0)"],
+        "|x^n| = |x|^n": ["|x^n| = |x|^n", "Propriété"],
+        "\\\\sqrt{x^2} = |x|": ["\\\\sqrt{x^2} = |x|", "Propriété"],
+        "|x| = M": ["x = M \\\\text{ ou } x = -M", "Équivalence"],
+        "|x| \\\\leq M": ["-M \\\\leq x \\\\leq M", "Équivalence"],
+        "|x| \\\\geq M": ["x \\\\leq -M \\\\text{ ou } x \\\\geq M", "Équivalence"],
+        "|x-a| \\\\leq \\\\varepsilon": ["a-\\\\varepsilon \\\\leq x \\\\leq a+\\\\varepsilon", "Équivalence"],
+        "|x-a| \\\\geq \\\\varepsilon": ["x \\\\leq a-\\\\varepsilon \\\\text{ ou } x \\\\geq a+\\\\varepsilon", "Équivalence"],
+        "|a+b| \\\\leq |a| + |b|": ["|a+b| \\\\leq |a| + |b|", "Inégalité triangulaire"],
+        "|a+b| = |a| + |b|": ["a \\\\text{ et } b \\\\text{ ont le même signe}", "Condition d'égalité"],
+        "\\\\text{Majorant de } f \\\\text{ sur } I": ["\\\\exists M \\\\in \\\\mathbb{R}, \\\\forall x \\\\in I, f(x) \\\\leq M", "Définition d'un majorant"],
+        "\\\\text{Minorant de } f \\\\text{ sur } I": ["\\\\exists m \\\\in \\\\mathbb{R}, \\\\forall x \\\\in I, f(x) \\\\geq m", "Définition d'un minorant"],
+        "\\\\sup_{x\\\\in I} f(x)": ["\\\\text{plus petit des majorants}", "Borne supérieure"],
+        "\\\\inf_{x\\\\in I} f(x)": ["\\\\text{plus grand des minorants}", "Borne inférieure"],
+        "\\\\max_{x\\\\in I} f(x)": ["\\\\text{borne supérieure atteinte}", "Maximum"],
+        "\\\\min_{x\\\\in I} f(x)": ["\\\\text{borne inférieure atteinte}", "Minimum"],
+        "m \\\\leq f(x) \\\\leq M": ["m \\\\leq f(x) \\\\leq M \\\\; \\\\forall x \\\\in I", "Encadrement d'une fonction"],
+        "\\\\Delta = b^2 - 4ac": ["\\\\Delta = b^2 - 4ac", "Discriminant d'un trinôme"],
+        "x = \\\\frac{-b \\\\pm \\\\sqrt{\\\\Delta}}{2a}": ["x = \\\\frac{-b \\\\pm \\\\sqrt{\\\\Delta}}{2a}", "Racines d'un trinôme (Δ > 0)"],
+        "x_0 = -\\\\frac{b}{2a}": ["x_0 = -\\\\frac{b}{2a}", "Racine double (Δ = 0)"],
+        "f(\\\\alpha)=0 \\\\Rightarrow f(x)=(x-\\\\alpha)g(x)": ["f(\\\\alpha)=0 \\\\Rightarrow f(x)=(x-\\\\alpha)g(x)", "Factorisation d'un polynôme"],
+        "f(x) \\\\leq \\\\lambda": ["f(x)-\\\\lambda \\\\leq 0", "Résolution d'inéquation"],
+        "f(x) \\\\leq g(x)": ["h(x)=f(x)-g(x) \\\\leq 0", "Méthode de la fonction différence"],
+        "e^x \\\\geq 1+x": ["e^x \\\\geq 1+x \\\\quad \\\\forall x \\\\in \\\\mathbb{R}", "Inégalité classique"]
+      }
     }
   }
 }
