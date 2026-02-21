@@ -1,3 +1,6 @@
+Voici le dictionnaire JSON mis à jour avec la nouvelle catégorie `formules_trigonometrie` contenant toutes les formules extraites des trois leçons sur la trigonométrie. Chaque formule est présentée en syntaxe LaTeX (compatible KaTeX) avec une description.
+
+```json
 {
   "volks": {
     "beta_1": {
@@ -11,7 +14,7 @@
       "characters": {
         "(AB)_{ij}": ["\\sum_{k=1}^{p} a_{ik} b_{kj}", "Formule du produit matriciel"],
         "(AX)_i": ["\\sum_{j=1}^{p} a_{ij} x_j", "Produit matrice × vecteur"],
-        "(A+B)_{ij}": ["a_{ij} + b_{ij}", "Addition de matrices"],
+        "(A+B)_{ij": ["a_{ij} + b_{ij}", "Addition de matrices"],
         "(\\lambda A)_{ij}": ["\\lambda a_{ij}", "Produit par un scalaire"],
         "A(BC)": ["(AB)C", "Associativité du produit matriciel"],
         "A(B+C)": ["AB + AC", "Distributivité à gauche"],
@@ -87,6 +90,82 @@
         "f(x) \\leq g(x)": ["h(x)=f(x)-g(x) \\leq 0", "Méthode de la fonction différence"],
         "e^x \\geq 1+x": ["e^x \\geq 1+x \\quad \\forall x \\in \\mathbb{R}", "Inégalité classique"]
       }
+    },
+    "formules_trigonometrie_l": {
+      "characters": {
+        "L = R\\theta": ["L = R\\theta", "Longueur d'un arc orienté (θ en radians)"],
+        "P = 2\\pi R": ["P = 2\\pi R", "Périmètre d'un cercle"],
+        "\\pi = \\frac{\\text{périmètre}}{\\text{diamètre}}": ["\\pi = \\frac{\\text{périmètre}}{\\text{diamètre}}", "Définition de π"],
+        "a \\equiv b \\ [2\\pi]": ["a \\equiv b \\ [2\\pi] \\iff \\exists k \\in \\mathbb{Z}, a = b + 2k\\pi", "Congruence modulo 2π"],
+        "\\text{angle rad} = \\frac{\\pi}{180} \\times \\text{angle deg}": ["\\text{angle en radians} = \\frac{\\pi}{180} \\times \\text{angle en degrés}", "Conversion degrés-radians"],
+        "\\cos \\hat{B} = \\frac{AB}{BC}": ["\\cos \\hat{B} = \\frac{AB}{BC}", "Cosinus dans triangle rectangle"],
+        "\\sin \\hat{B} = \\frac{AC}{BC}": ["\\sin \\hat{B} = \\frac{AC}{BC}", "Sinus dans triangle rectangle"],
+        "\\tan \\hat{B} = \\frac{AC}{AB} = \\frac{\\sin \\hat{B}}{\\cos \\hat{B}}": ["\\tan \\hat{B} = \\frac{AC}{AB} = \\frac{\\sin \\hat{B}}{\\cos \\hat{B}}", "Tangente dans triangle rectangle"],
+        "\\cos \\theta = \\text{abscisse de } M(\\theta)": ["\\cos \\theta = \\text{abscisse de } M(\\theta)", "Cosinus sur cercle trigonométrique"],
+        "\\sin \\theta = \\text{ordonnée de } M(\\theta)": ["\\sin \\theta = \\text{ordonnée de } M(\\theta)", "Sinus sur cercle trigonométrique"],
+        "\\tan \\theta = \\frac{\\sin \\theta}{\\cos \\theta}": ["\\tan \\theta = \\frac{\\sin \\theta}{\\cos \\theta}", "Tangente sur cercle trigonométrique"],
+        "\\tan \\theta \\text{ défini pour } \\theta \\neq \\frac{\\pi}{2} + k\\pi": ["\\tan \\theta \\text{ est défini pour } \\theta \\neq \\frac{\\pi}{2} + k\\pi, k\\in\\mathbb{Z}", "Domaine de définition de tan"],
+        "e^{i\\theta} = \\cos \\theta + i \\sin \\theta": ["e^{i\\theta} = \\cos \\theta + i \\sin \\theta", "Formule d'Euler"],
+        "|e^{i\\theta}| = 1": ["|e^{i\\theta}| = 1", "Module de l'exponentielle complexe"],
+        "\\mathbb{U} = \\{ z \\in \\mathbb{C} \\mid |z| = 1 \\}": ["\\mathbb{U} = \\{ z \\in \\mathbb{C} \\mid |z| = 1 \\}", "Groupe unité"],
+        "e^{ia} e^{ib} = e^{i(a+b)}": ["e^{ia} e^{ib} = e^{i(a+b)}", "Produit d'exponentielles"],
+        "\\overline{e^{i\\theta}} = e^{-i\\theta} = \\frac{1}{e^{i\\theta}}": ["\\overline{e^{i\\theta}} = e^{-i\\theta} = \\frac{1}{e^{i\\theta}}", "Conjugué et inverse"],
+        "\\cos \\theta = \\frac{e^{i\\theta} + e^{-i\\theta}}{2}": ["\\cos \\theta = \\frac{e^{i\\theta} + e^{-i\\theta}}{2}", "Formule d'Euler pour cos"],
+        "\\sin \\theta = \\frac{e^{i\\theta} - e^{-i\\theta}}{2i}": ["\\sin \\theta = \\frac{e^{i\\theta} - e^{-i\\theta}}{2i}", "Formule d'Euler pour sin"],
+        "(e^{i\\theta})^n = e^{i n\\theta}": ["(e^{i\\theta})^n = e^{i n\\theta}", "Formule de Moivre (exponentielle)"],
+        "(\\cos \\theta + i \\sin \\theta)^n = \\cos(n\\theta) + i \\sin(n\\theta)": ["(\\cos \\theta + i \\sin \\theta)^n = \\cos(n\\theta) + i \\sin(n\\theta)", "Formule de Moivre"],
+        "\\cos^2 \\theta + \\sin^2 \\theta = 1": ["\\cos^2 \\theta + \\sin^2 \\theta = 1", "Identité pythagoricienne"],
+        "1 + \\tan^2 \\theta = \\frac{1}{\\cos^2 \\theta}": ["1 + \\tan^2 \\theta = \\frac{1}{\\cos^2 \\theta} \\quad (\\theta \\neq \\frac{\\pi}{2} + k\\pi)", "Relation avec tangente"],
+        "\\cos 0 = 1": ["\\cos 0 = 1", "Valeur remarquable"],
+        "\\sin 0 = 0": ["\\sin 0 = 0", "Valeur remarquable"],
+        "\\tan 0 = 0": ["\\tan 0 = 0", "Valeur remarquable"],
+        "\\cos \\frac{\\pi}{6} = \\frac{\\sqrt{3}}{2}": ["\\cos \\frac{\\pi}{6} = \\frac{\\sqrt{3}}{2}", "Valeur remarquable"],
+        "\\sin \\frac{\\pi}{6} = \\frac{1}{2}": ["\\sin \\frac{\\pi}{6} = \\frac{1}{2}", "Valeur remarquable"],
+        "\\tan \\frac{\\pi}{6} = \\frac{1}{\\sqrt{3}}": ["\\tan \\frac{\\pi}{6} = \\frac{1}{\\sqrt{3}}", "Valeur remarquable"],
+        "\\cos \\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}": ["\\cos \\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}", "Valeur remarquable"],
+        "\\sin \\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}": ["\\sin \\frac{\\pi}{4} = \\frac{\\sqrt{2}}{2}", "Valeur remarquable"],
+        "\\tan \\frac{\\pi}{4} = 1": ["\\tan \\frac{\\pi}{4} = 1", "Valeur remarquable"],
+        "\\cos \\frac{\\pi}{3} = \\frac{1}{2}": ["\\cos \\frac{\\pi}{3} = \\frac{1}{2}", "Valeur remarquable"],
+        "\\sin \\frac{\\pi}{3} = \\frac{\\sqrt{3}}{2}": ["\\sin \\frac{\\pi}{3} = \\frac{\\sqrt{3}}{2}", "Valeur remarquable"],
+        "\\tan \\frac{\\pi}{3} = \\sqrt{3}": ["\\tan \\frac{\\pi}{3} = \\sqrt{3}", "Valeur remarquable"],
+        "\\cos \\frac{\\pi}{2} = 0": ["\\cos \\frac{\\pi}{2} = 0", "Valeur remarquable"],
+        "\\sin \\frac{\\pi}{2} = 1": ["\\sin \\frac{\\pi}{2} = 1", "Valeur remarquable"],
+        "\\tan \\frac{\\pi}{2} \\text{ non défini}": ["\\tan \\frac{\\pi}{2} \\text{ non défini}", "Valeur remarquable"],
+        "\\cos x = \\cos \\theta \\iff x = \\pm \\theta + 2k\\pi": ["\\cos x = \\cos \\theta \\iff x = \\pm \\theta + 2k\\pi, k\\in\\mathbb{Z}", "Égalité des cosinus"],
+        "\\sin x = \\sin \\theta \\iff x = \\theta + 2k\\pi \\text{ ou } x = \\pi - \\theta + 2k\\pi": ["\\sin x = \\sin \\theta \\iff x = \\theta + 2k\\pi \\text{ ou } x = \\pi - \\theta + 2k\\pi", "Égalité des sinus"],
+        "\\tan x = \\tan \\theta \\iff x = \\theta + k\\pi": ["\\tan x = \\tan \\theta \\iff x = \\theta + k\\pi", "Égalité des tangentes"],
+        "\\cos(a+b) = \\cos a \\cos b - \\sin a \\sin b": ["\\cos(a+b) = \\cos a \\cos b - \\sin a \\sin b", "Formule d'addition pour cos"],
+        "\\sin(a+b) = \\sin a \\cos b + \\sin b \\cos a": ["\\sin(a+b) = \\sin a \\cos b + \\sin b \\cos a", "Formule d'addition pour sin"],
+        "\\cos(a-b) = \\cos a \\cos b + \\sin a \\sin b": ["\\cos(a-b) = \\cos a \\cos b + \\sin a \\sin b", "Formule de soustraction pour cos"],
+        "\\sin(a-b) = \\sin a \\cos b - \\sin b \\cos a": ["\\sin(a-b) = \\sin a \\cos b - \\sin b \\cos a", "Formule de soustraction pour sin"],
+        "\\cos(2a) = \\cos^2 a - \\sin^2 a = 2\\cos^2 a - 1 = 1 - 2\\sin^2 a": ["\\cos(2a) = \\cos^2 a - \\sin^2 a = 2\\cos^2 a - 1 = 1 - 2\\sin^2 a", "Formule de duplication pour cos"],
+        "\\sin(2a) = 2 \\sin a \\cos a": ["\\sin(2a) = 2 \\sin a \\cos a", "Formule de duplication pour sin"],
+        "\\tan(a+b) = \\frac{\\tan a + \\tan b}{1 - \\tan a \\tan b}": ["\\tan(a+b) = \\frac{\\tan a + \\tan b}{1 - \\tan a \\tan b}", "Formule d'addition pour tan"],
+        "\\tan(a-b) = \\frac{\\tan a - \\tan b}{1 + \\tan a \\tan b}": ["\\tan(a-b) = \\frac{\\tan a - \\tan b}{1 + \\tan a \\tan b}", "Formule de soustraction pour tan"],
+        "\\tan(2a) = \\frac{2\\tan a}{1 - \\tan^2 a}": ["\\tan(2a) = \\frac{2\\tan a}{1 - \\tan^2 a}", "Formule de duplication pour tan"],
+        "\\cos a \\cos b = \\frac{1}{2}[\\cos(a+b) + \\cos(a-b)]": ["\\cos a \\cos b = \\frac{1}{2}[\\cos(a+b) + \\cos(a-b)]", "Produit en somme cos-cos"],
+        "\\sin a \\sin b = \\frac{1}{2}[\\cos(a-b) - \\cos(a+b)]": ["\\sin a \\sin b = \\frac{1}{2}[\\cos(a-b) - \\cos(a+b)]", "Produit en somme sin-sin"],
+        "\\sin a \\cos b = \\frac{1}{2}[\\sin(a+b) + \\sin(a-b)]": ["\\sin a \\cos b = \\frac{1}{2}[\\sin(a+b) + \\sin(a-b)]", "Produit en somme sin-cos"],
+        "\\cos^2 a = \\frac{1 + \\cos 2a}{2}": ["\\cos^2 a = \\frac{1 + \\cos 2a}{2}", "Linéarisation de cos²"],
+        "\\sin^2 a = \\frac{1 - \\cos 2a}{2}": ["\\sin^2 a = \\frac{1 - \\cos 2a}{2}", "Linéarisation de sin²"],
+        "\\sin p + \\sin q = 2 \\sin\\left(\\frac{p+q}{2}\\right) \\cos\\left(\\frac{p-q}{2}\\right)": ["\\sin p + \\sin q = 2 \\sin\\left(\\frac{p+q}{2}\\right) \\cos\\left(\\frac{p-q}{2}\\right)", "Somme en produit sin"],
+        "\\sin p - \\sin q = 2 \\sin\\left(\\frac{p-q}{2}\\right) \\cos\\left(\\frac{p+q}{2}\\right)": ["\\sin p - \\sin q = 2 \\sin\\left(\\frac{p-q}{2}\\right) \\cos\\left(\\frac{p+q}{2}\\right)", "Différence en produit sin"],
+        "\\cos p + \\cos q = 2 \\cos\\left(\\frac{p+q}{2}\\right) \\cos\\left(\\frac{p-q}{2}\\right)": ["\\cos p + \\cos q = 2 \\cos\\left(\\frac{p+q}{2}\\right) \\cos\\left(\\frac{p-q}{2}\\right)", "Somme en produit cos"],
+        "\\cos p - \\cos q = -2 \\sin\\left(\\frac{p+q}{2}\\right) \\sin\\left(\\frac{p-q}{2}\\right)": ["\\cos p - \\cos q = -2 \\sin\\left(\\frac{p+q}{2}\\right) \\sin\\left(\\frac{p-q}{2}\\right)", "Différence en produit cos"],
+        "\\cos x + \\sin x = \\sqrt{2} \\sin\\left(x + \\frac{\\pi}{4}\\right)": ["\\cos x + \\sin x = \\sqrt{2} \\sin\\left(x + \\frac{\\pi}{4}\\right)", "Combinaison linéaire"],
+        "t = \\tan\\left(\\frac{\\theta}{2}\\right) \\Rightarrow \\cos \\theta = \\frac{1-t^2}{1+t^2}, \\sin \\theta = \\frac{2t}{1+t^2}, \\tan \\theta = \\frac{2t}{1-t^2}": ["t = \\tan\\left(\\frac{\\theta}{2}\\right) \\Rightarrow \\cos \\theta = \\frac{1-t^2}{1+t^2}, \\quad \\sin \\theta = \\frac{2t}{1+t^2}, \\quad \\tan \\theta = \\frac{2t}{1-t^2}", "Paramétrisation rationnelle"],
+        "\\cos(-\\theta) = \\cos \\theta": ["\\cos(-\\theta) = \\cos \\theta", "Parité de cos"],
+        "\\sin(-\\theta) = -\\sin \\theta": ["\\sin(-\\theta) = -\\sin \\theta", "Imparité de sin"],
+        "\\cos(\\pi - \\theta) = -\\cos \\theta": ["\\cos(\\pi - \\theta) = -\\cos \\theta", "Angles associés"],
+        "\\sin(\\pi - \\theta) = \\sin \\theta": ["\\sin(\\pi - \\theta) = \\sin \\theta", "Angles associés"],
+        "\\cos(\\pi + \\theta) = -\\cos \\theta": ["\\cos(\\pi + \\theta) = -\\cos \\theta", "Angles associés"],
+        "\\sin(\\pi + \\theta) = -\\sin \\theta": ["\\sin(\\pi + \\theta) = -\\sin \\theta", "Angles associés"],
+        "\\cos\\left(\\frac{\\pi}{2} - \\theta\\right) = \\sin \\theta": ["\\cos\\left(\\frac{\\pi}{2} - \\theta\\right) = \\sin \\theta", "Angles complémentaires"],
+        "\\sin\\left(\\frac{\\pi}{2} - \\theta\\right) = \\cos \\theta": ["\\sin\\left(\\frac{\\pi}{2} - \\theta\\right) = \\cos \\theta", "Angles complémentaires"],
+        "\\cos\\left(\\frac{\\pi}{2} + \\theta\\right) = -\\sin \\theta": ["\\cos\\left(\\frac{\\pi}{2} + \\theta\\right) = -\\sin \\theta", "Angles associés"],
+        "\\sin\\left(\\frac{\\pi}{2} + \\theta\\right) = \\cos \\theta": ["\\sin\\left(\\frac{\\pi}{2} + \\theta\\right) = \\cos \\theta", "Angles associés"]
+      }
     }
   }
 }
+```
