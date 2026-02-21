@@ -1,6 +1,3 @@
-Voici le dictionnaire JSON mis à jour avec la nouvelle catégorie `formules_trigonometrie` contenant toutes les formules extraites des trois leçons sur la trigonométrie. Chaque formule est présentée en syntaxe LaTeX (compatible KaTeX) avec une description.
-
-```json
 {
   "volks": {
     "beta_1": {
@@ -168,4 +165,3 @@ Voici le dictionnaire JSON mis à jour avec la nouvelle catégorie `formules_tri
     }
   }
 }
-```
