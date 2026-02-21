@@ -311,6 +311,45 @@
         "\\text{Les points d'affixes } \\omega_k \\text{ forment un polygone régulier}": ["\\text{Les points d'affixes } \\omega_k \\text{ forment un polygone régulier à } n \\text{ côtés centré à l'origine}", "Propriété géométrique"],
         "\\text{Racines n-ièmes de } Z = \\rho e^{i\\theta} : z_k = \\sqrt[n]{\\rho} e^{i\\frac{\\theta+2k\\pi}{n}},\\ k=0,\\dots,n-1": ["\\text{Racines n-ièmes de } Z = \\rho e^{i\\theta} : z_k = \\sqrt[n]{\\rho} e^{i\\frac{\\theta+2k\\pi}{n}},\\ k=0,\\dots,n-1", "Racines n-ièmes d'un complexe"]
       }
+    },
+    "formules_geometrie_plane_l": {
+      "characters": {
+        "AB = \\sqrt{(x_B - x_A)^2 + (y_B - y_A)^2}": ["AB = \\sqrt{(x_B - x_A)^2 + (y_B - y_A)^2}", "Distance entre deux points"],
+        "M_{\\text{milieu}} \\left( \\frac{x_A+x_B}{2}, \\frac{y_A+y_B}{2} \\right)": ["M_{\\text{milieu}} \\left( \\frac{x_A+x_B}{2}, \\frac{y_A+y_B}{2} \\right)", "Coordonnées du milieu"],
+        "(\\vec{u},\\vec{v}) = \\arg(z_v) - \\arg(z_u) = \\arg\\left(\\frac{z_v}{z_u}\\right)": ["(\\vec{u},\\vec{v}) = \\arg(z_v) - \\arg(z_u) = \\arg\\left(\\frac{z_v}{z_u}\\right)", "Angle entre vecteurs avec affixes"],
+        "\\frac{d-c}{b-a} \\text{ a pour module } \\frac{CD}{AB} \\text{ et argument } (\\overrightarrow{AB},\\overrightarrow{CD})": ["\\frac{d-c}{b-a} \\text{ a pour module } \\frac{CD}{AB} \\text{ et argument } (\\overrightarrow{AB},\\overrightarrow{CD})", "Quotient de différences d'affixes"],
+        "\\vec{u} = (\\vec{u}\\cdot\\vec{I})\\vec{I} + (\\vec{u}\\cdot\\vec{J})\\vec{J}": ["\\vec{u} = (\\vec{u}\\cdot\\vec{I})\\vec{I} + (\\vec{u}\\cdot\\vec{J})\\vec{J}", "Décomposition dans base orthonormée"],
+        "\\text{Coordonnées de } \\vec{u}+\\vec{v} : (x+x', y+y')": ["\\text{Coordonnées de } \\vec{u}+\\vec{v} : (x+x', y+y')", "Somme de vecteurs"],
+        "\\text{Coordonnées de } \\lambda\\vec{u} : (\\lambda x, \\lambda y)": ["\\text{Coordonnées de } \\lambda\\vec{u} : (\\lambda x, \\lambda y)", "Multiplication par un scalaire"],
+        "\\overrightarrow{OM} \\text{ a pour coordonnées } (x_M, y_M) \\text{ dans } (O;\\vec{i},\\vec{j})": ["\\overrightarrow{OM} \\text{ a pour coordonnées } (x_M, y_M) \\text{ dans } (O;\\vec{i},\\vec{j})", "Lien point-vecteur"],
+        "\\overrightarrow{AB} \\text{ a pour coordonnées } (x_B-x_A, y_B-y_A)": ["\\overrightarrow{AB} \\text{ a pour coordonnées } (x_B-x_A, y_B-y_A)", "Coordonnées d'un vecteur"],
+        "\\overrightarrow{OG} = \\frac{1}{\\sum m_i} \\sum m_i \\overrightarrow{OA_i}": ["\\overrightarrow{OG} = \\frac{1}{\\sum m_i} \\sum m_i \\overrightarrow{OA_i}", "Définition du barycentre"],
+        "\\text{Coordonnées du barycentre : } x_G = \\frac{\\sum m_i x_i}{\\sum m_i},\\ y_G = \\frac{\\sum m_i y_i}{\\sum m_i}": ["x_G = \\frac{\\sum m_i x_i}{\\sum m_i},\\ y_G = \\frac{\\sum m_i y_i}{\\sum m_i}", "Coordonnées du barycentre"],
+        "\\vec{u}\\cdot\\vec{v} = \\|\\vec{u}\\|\\|\\vec{v}\\| \\cos(\\vec{u},\\vec{v})": ["\\vec{u}\\cdot\\vec{v} = \\|\\vec{u}\\|\\|\\vec{v}\\| \\cos(\\vec{u},\\vec{v})", "Définition produit scalaire"],
+        "\\det(\\vec{u},\\vec{v}) = \\|\\vec{u}\\|\\|\\vec{v}\\| \\sin(\\vec{u},\\vec{v})": ["\\det(\\vec{u},\\vec{v}) = \\|\\vec{u}\\|\\|\\vec{v}\\| \\sin(\\vec{u},\\vec{v})", "Définition déterminant"],
+        "\\vec{u}\\cdot\\vec{v} = 0 \\iff \\vec{u} \\perp \\vec{v}": ["\\vec{u}\\cdot\\vec{v} = 0 \\iff \\vec{u} \\perp \\vec{v}", "Orthogonalité"],
+        "\\det(\\vec{u},\\vec{v}) = 0 \\iff \\vec{u} \\text{ et } \\vec{v} \\text{ colinéaires}": ["\\det(\\vec{u},\\vec{v}) = 0 \\iff \\vec{u} \\text{ et } \\vec{v} \\text{ colinéaires}", "Colinéarité"],
+        "\\det(\\vec{u},\\vec{v}) = \\text{aire algébrique du parallélogramme}": ["\\det(\\vec{u},\\vec{v}) = \\text{aire algébrique du parallélogramme construit sur } \\vec{u},\\vec{v}", "Interprétation géométrique du déterminant"],
+        "\\text{Aire du triangle } = \\frac{|\\det(\\vec{u},\\vec{v})|}{2}": ["\\text{Aire du triangle formé par } \\vec{u},\\vec{v} = \\frac{|\\det(\\vec{u},\\vec{v})|}{2}", "Aire d'un triangle"],
+        "\\vec{u}\\cdot\\vec{v} = xx' + yy' \\text{ si } \\vec{u}=(x,y),\\ \\vec{v}=(x',y')": ["\\vec{u}\\cdot\\vec{v} = xx' + yy'", "Produit scalaire en coordonnées"],
+        "\\det(\\vec{u},\\vec{v}) = xy' - yx'": ["\\det(\\vec{u},\\vec{v}) = xy' - yx'", "Déterminant en coordonnées"],
+        "(\\vec{u}+\\vec{v})^2 = \\vec{u}^2 + 2\\vec{u}\\cdot\\vec{v} + \\vec{v}^2": ["(\\vec{u}+\\vec{v})^2 = \\vec{u}^2 + 2\\vec{u}\\cdot\\vec{v} + \\vec{v}^2", "Identité remarquable"],
+        "(\\vec{u}-\\vec{v})^2 = \\vec{u}^2 - 2\\vec{u}\\cdot\\vec{v} + \\vec{v}^2": ["(\\vec{u}-\\vec{v})^2 = \\vec{u}^2 - 2\\vec{u}\\cdot\\vec{v} + \\vec{v}^2", "Identité remarquable"],
+        "(\\vec{u}+\\vec{v})\\cdot(\\vec{u}-\\vec{v}) = \\vec{u}^2 - \\vec{v}^2": ["(\\vec{u}+\\vec{v})\\cdot(\\vec{u}-\\vec{v}) = \\vec{u}^2 - \\vec{v}^2", "Identité remarquable"],
+        "\\vec{u}\\cdot\\vec{v} = \\frac{1}{2}\\left(\\|\\vec{u}+\\vec{v}\\|^2 - \\|\\vec{u}\\|^2 - \\|\\vec{v}\\|^2\\right) = \\frac{1}{4}\\left(\\|\\vec{u}+\\vec{v}\\|^2 - \\|\\vec{u}-\\vec{v}\\|^2\\right)": ["\\vec{u}\\cdot\\vec{v} = \\frac{1}{2}\\left(\\|\\vec{u}+\\vec{v}\\|^2 - \\|\\vec{u}\\|^2 - \\|\\vec{v}\\|^2\\right) = \\frac{1}{4}\\left(\\|\\vec{u}+\\vec{v}\\|^2 - \\|\\vec{u}-\\vec{v}\\|^2\\right)", "Identités de polarisation"],
+        "\\text{Vecteur directeur } \\vec{u} = (a,b) \\Rightarrow \\text{vecteur normal } \\vec{n} = (-b,a)": ["\\text{Si } \\vec{u} = (a,b) \\text{ est directeur, alors } \\vec{n} = (-b,a) \\text{ est normal}", "Relation vecteur directeur / normal"],
+        "\\text{Équation paramétrique de droite : } \\begin{cases} x = x_A + u_x t \\\\ y = y_A + u_y t \\end{cases}, t\\in\\mathbb{R}": ["\\begin{cases} x = x_A + u_x t \\\\ y = y_A + u_y t \\end{cases}, t\\in\\mathbb{R}", "Équation paramétrique d'une droite"],
+        "\\text{Équation cartésienne avec vecteur normal } \\vec{n}=(a,b) : a(x-x_A)+b(y-y_A)=0 \\text{ soit } ax+by+c=0": ["a(x-x_A)+b(y-y_A)=0 \\iff ax+by+c=0 \\text{ avec } c=-ax_A-by_A", "Équation cartésienne d'une droite"],
+        "\\det(\\overrightarrow{AM},\\vec{u})=0 \\text{ donne aussi une équation cartésienne}": ["\\det(\\overrightarrow{AM},\\vec{u})=0", "Équation par déterminant"],
+        "\\text{Cercle centre } \\Omega(x_\\Omega,y_\\Omega),\\text{ rayon } R : (x-x_\\Omega)^2+(y-y_\\Omega)^2 = R^2": ["(x-x_\\Omega)^2+(y-y_\\Omega)^2 = R^2", "Équation cartésienne d'un cercle"],
+        "\\text{Forme générale : } x^2+y^2+\\alpha x+\\beta y+\\gamma =0 \\text{ après complétion de carrés peut représenter un cercle}": ["x^2+y^2+\\alpha x+\\beta y+\\gamma =0", "Équation générale du second degré"],
+        "\\text{Cercle de diamètre }[AB] : \\overrightarrow{MA}\\cdot\\overrightarrow{MB}=0": ["\\overrightarrow{MA}\\cdot\\overrightarrow{MB}=0", "Caractérisation angulaire du cercle de diamètre [AB]"],
+        "\\text{Paramétrique du cercle : } \\begin{cases} x = x_\\Omega + R\\cos\\theta \\\\ y = y_\\Omega + R\\sin\\theta \\end{cases}, \\theta\\in\\mathbb{R}": ["\\begin{cases} x = x_\\Omega + R\\cos\\theta \\\\ y = y_\\Omega + R\\sin\\theta \\end{cases}, \\theta\\in\\mathbb{R}", "Équation paramétrique d'un cercle"],
+        "\\text{Paramétrisation rationnelle (sauf un point) : } \\begin{cases} x = x_\\Omega + R\\frac{1-t^2}{1+t^2} \\\\ y = y_\\Omega + R\\frac{2t}{1+t^2} \\end{cases}, t\\in\\mathbb{R}": ["\\begin{cases} x = x_\\Omega + R\\frac{1-t^2}{1+t^2} \\\\ y = y_\\Omega + R\\frac{2t}{1+t^2} \\end{cases}, t\\in\\mathbb{R}", "Paramétrisation rationnelle d'un cercle"],
+        "(\\overrightarrow{\\Omega A},\\overrightarrow{\\Omega B}) \\equiv 2(\\overrightarrow{MA},\\overrightarrow{MB}) \\ [2\\pi]": ["(\\overrightarrow{\\Omega A},\\overrightarrow{\\Omega B}) \\equiv 2(\\overrightarrow{MA},\\overrightarrow{MB}) \\ [2\\pi]", "Angle au centre et angle inscrit"],
+        "\\text{Intersection cercle-droite selon } d(\\Omega,(D)) \\lesseqgtr R": ["\\text{Si } d(\\Omega,(D)) < R : 2 \\text{ points}; = R : 1 \\text{ point (tangente)}; > R : \\text{vide}", "Intersection cercle-droite"],
+        "\\text{Intersection cercle-cercle : soustraire les équations pour se ramener à une droite}": ["\\text{Intersection cercle-cercle : soustraire les équations pour se ramener à une droite}", "Méthode d'intersection de deux cercles"]
+      }
     }
   }
 }
