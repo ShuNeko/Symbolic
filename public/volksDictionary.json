@@ -55,7 +55,7 @@
         "]-\\infty,a[": ["\\{x \\in \\mathbb{R} \\mid x < a\\}", "Intervalle ouvert à droite"],
         "\\mathbb{R}": ["]-\\infty,+\\infty[", "Ensemble des réels"],
         "\\emptyset": ["Ensemble vide"],
-        "\\{a\\}": [" "Singleton"],
+        "\\{a\\}": ["Singleton"],
         "I \\cap J": ["\\{x \\in \\mathbb{R} \\mid x \\in I \\text{ et } x \\in J\\}", "Intersection de deux intervalles"],
         "I \\cup J": ["\\{x \\in \\mathbb{R} \\mid x \\in I \\text{ ou } x \\in J\\}", "Union de deux intervalles"],
         "|x|": ["\\begin{cases} x & \\text{si } x > 0 \\\\ 0 & \\text{si } x = 0 \\\\ -x & \\text{si } x < 0 \\end{cases}", "Définition de la valeur absolue"],
