@@ -4,7 +4,7 @@
       "characters": {
         "Bhou": ["ah", "oh"],
         "Shu": ["neko"],
-        "\uF1980": ["Kijetesantakalu"],
+        "\\uF1980": ["Kijetesantakalu"],
         "UwU":["OwO"]
       }
     }
