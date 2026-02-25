@@ -122,6 +122,100 @@
         "Quelle est la relation entre moment dipolaire et électronégativité pour une liaison ?": ["μ augmente avec la différence d'électronégativité."],
         "Pourquoi l'eau a-t-elle une viscosité plus élevée que le benzène ?": ["À cause des liaisons hydrogène qui augmentent les forces intermoléculaires."]
       }
+    },
+      "lecon_3_bilan_quantite_matiere_l": {
+    "characters": {
+      "Quelle est la définition de la mole ?": [
+        "La mole est la quantité de substance contenant un nombre d'entités chimiques égal au nombre d'atomes dans 12 g de carbone 12."
+      ],
+      "Quelle est la valeur du nombre d'Avogadro ?": [
+        "\\(N_A = 6,02 \\times 10^{23}\\)"
+      ],
+      "Comment calcule-t-on la masse d'un atome de fer 56 ?": [
+        "\\(m(Fe) = A \\times m_{nuc} = 56 \\times 1,67 \\times 10^{-27}\\) kg"
+      ],
+      "Combien d'atomes y a-t-il dans 1,0 g de fer si la masse d'un atome est \\(9,35 \\times 10^{-26}\\) kg ?": [
+        "\\(1,07 \\times 10^{22}\\) atomes"
+      ],
+      "Qu'est-ce que la masse molaire atomique ?": [
+        "C'est la masse d'une mole d'atomes d'un élément pris dans ses proportions isotopiques naturelles, exprimée en g/mol."
+      ],
+      "Comment calcule-t-on la masse molaire du chlore à partir de ses isotopes ?": [
+        "\\(M(Cl) = 0,7577 \\times 34,969 + 0,2423 \\times 36,966 = 35,45\\) g/mol"
+      ],
+      "Qu'est-ce que la masse molaire moléculaire ?": [
+        "C'est la masse d'une mole de molécules, obtenue en sommant les masses molaires atomiques des éléments qui la constituent."
+      ],
+      "Calculez la masse molaire du dioxyde d'azote \\(NO_2\\).": [
+        "\\(M(NO_2) = M(N) + 2 \\times M(O) = 14,0 + 2 \\times 16,0 = 46,0\\) g/mol"
+      ],
+      "Pourquoi la masse molaire des ions est-elle considérée égale à celle des atomes correspondants ?": [
+        "Parce que la masse des électrons est négligeable devant celle des nucléons."
+      ],
+      "Quelle est la relation entre la masse m, la quantité de matière n et la masse molaire M ?": [
+        "\\(M = \\frac{m}{n}\\) ou \\(n = \\frac{m}{M}\\) ou \\(m = n \\times M\\)"
+      ],
+      "Énoncez la loi des gaz parfaits.": [
+        "\\(PV = nRT\\)"
+      ],
+      "Quelles sont les unités de P, V, n, T et R dans la loi des gaz parfaits ?": [
+        "P en Pa, V en m³, n en mol, T en K, \\(R = 8,314\\, J\\cdot mol^{-1}\\cdot K^{-1}\\)"
+      ],
+      "Comment convertit-on une température en degrés Celsius en kelvin ?": [
+        "\\(T(K) = T(°C) + 273\\)"
+      ],
+      "Donnez l'équivalence entre 1 atm et les autres unités de pression.": [
+        "1 atm = 760 mmHg = 1,013 bar = \\(1,013 \\times 10^5\\) Pa"
+      ],
+      "Qu'est-ce que le volume molaire ?": [
+        "Le volume occupé par une mole de gaz, noté \\(V_m\\), exprimé en L/mol."
+      ],
+      "Quelle est la relation entre le volume V d'un gaz, le nombre de moles n et le volume molaire Vm ?": [
+        "\\(V_m = \\frac{V}{n}\\) ou \\(V = n \\times V_m\\)"
+      ],
+      "À quel type de substance s'applique la formule \\(V_m = V/n\\) ?": [
+        "Aux gaz uniquement."
+      ],
+      "Définissez la concentration molaire d'une espèce X en solution.": [
+        "\\([X] = \\frac{n(X)}{V}\\) où V est le volume de la solution en L, [X] en mol/L."
+      ],
+      "Quelle est la relation entre concentration molaire [X] et concentration massique cm(X) ?": [
+        "\\(c_m(X) = M(X) \\times [X]\\)"
+      ],
+      "À quel type de solutions s'applique la formule \\([X] = n/V\\) ?": [
+        "Aux liquides, aux ions et aux gaz dissous."
+      ],
+      "Que se passe-t-il lors d'un prélèvement d'une solution ?": [
+        "La concentration en soluté est la même que dans la solution initiale, mais la quantité de matière est différente."
+      ],
+      "Que se passe-t-il lors d'une dilution ?": [
+        "La concentration diminue, mais la quantité de matière de soluté reste constante."
+      ],
+      "Qu'est-ce qu'une réaction totale ?": [
+        "Une réaction qui ne s'arrête que lorsque l'un au moins des réactifs a été entièrement consommé."
+      ],
+      "Qu'est-ce qu'un équilibre chimique ?": [
+        "Une réaction où les réactifs ne sont pas entièrement consommés, atteignant un état d'équilibre dynamique (symbolisé par =)."
+      ],
+      "Quels sont les deux principes de conservation à respecter dans une équation-bilan ?": [
+        "Conservation des éléments et conservation de la charge électrique."
+      ],
+      "Dans une réaction totale \\(aA + bB \\rightarrow cC\\), comment exprime-t-on les quantités finales en fonction de l'avancement \\(x_{max}\\) ?": [
+        "\\(n_\\infty(A) = n_0(A) - a x_{max}\\), \\(n_\\infty(B) = n_0(B) - b x_{max}\\), \\(n_\\infty(C) = n_0(C) + c x_{max}\\)"
+      ],
+      "Comment détermine-t-on le réactif limitant si l'énoncé ne précise rien ?": [
+        "On calcule \\(\\frac{n_0(A)}{a}\\) et \\(\\frac{n_0(B)}{b}\\), le plus petit des deux donne \\(x_{max}\\)."
+      ],
+      "Que signifie un mélange stœchiométrique ?": [
+        "Lorsque \\(\\frac{n_0(A)}{a} = \\frac{n_0(B)}{b}\\), tous les réactifs sont entièrement consommés."
+      ],
+      "Le volume molaire dépend-il de la nature du gaz ?": [
+        "Non, selon la loi d'Avogadro-Ampère, dans les mêmes conditions, une mole de gaz occupe le même volume quel que soit le gaz."
+      ],
+      "Quelle est l'expression de la masse molaire moyenne du chlore sachant qu'il a deux isotopes avec abondances 75,77% et 24,23% et masses molaires 34,969 et 36,966 g/mol?": [
+        "\\(M = 0,7577 \\times 34,969 + 0,2423 \\times 36,966 = 35,45\\) g/mol"
+      ]
     }
+  }
   }
 }
