@@ -46,7 +46,7 @@
         "Dans une maille cubique centrée, combien d'atomes propres ?": ["2"],
         "Dans une maille cubique à faces centrées, combien d'atomes propres ?": ["4"],
         "Quelle est la charge d'un électron ?": ["\\(-e = -1,6 \\times 10^{-19}) C"],
-        "Un atome neutre de numéro atomique Z possède combien d'électrons ?": ["Z"],
+        "Un atome neutre de numéro atomique Z possède combien d'électrons ?": ["Z"]
       }
     }
   }
