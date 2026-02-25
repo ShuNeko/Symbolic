@@ -166,6 +166,30 @@
         "Comment détermine-t-on x_{\\max} si aucun réactif limitant n'est précisé ?": ["On calcule \\frac{n_0(A)}{a} et \\frac{n_0(B)}{b} ; le plus petit des deux est x_{\\max}."],
         "Qu'appelle-t-on un mélange stœchiométrique ?": ["Lorsque \\frac{n_0(A)}{a} = \\frac{n_0(B)}{b}."]
       }
+    },
+    "equilibres_chimiques_l": {
+      "characters": {
+        "Quelle est la définition d'un équilibre chimique ?": ["Tous les réactifs et produits coexistent, aucun réactif n'a disparu totalement."],
+        "Comment note-t-on l'avancement à l'équilibre ?": ["x_e = \\lim_{t \\to +\\infty} x(t)"],
+        "De quoi dépend la constante d'équilibre K(T) ?": ["Uniquement de la température."],
+        "Quelle est la formule du rendement d'un équilibre ?": ["\\alpha = \\frac{x_e}{x_{max}} \\times 100"],
+        "Quelle est l'activité d'un solide ?": ["a(X_{(s)}) = 1"],
+        "Quelle est l'activité de l'eau en tant que solvant ?": ["a(H_2O_{(solvant)}) = 1"],
+        "Comment calcule-t-on l'activité d'un soluté (ion, liquide, gaz dissous) ?": ["a(X_{(soluté)}) = \\frac{[X]}{c^0} \\quad \\text{avec} \\quad c^0 = 1,0\\ \\text{mol/L}"],
+        "Quelle est l'expression de l'activité d'un gaz ?": ["a(X_{(g)}) = \\frac{n(X)}{n_{tot\\ gaz}} \\times \\frac{P_{tot}}{P^0} \\quad \\text{avec} \\quad P^0 = 1,0\\ \\text{bar}"],
+        "Énoncez la loi d'action de masse pour un équilibre aA + bB = cC + dD.": ["K(T) = \\frac{a(C)_e^c \\times a(D)_e^d}{a(A)_e^a \\times a(B)_e^b}"],
+        "Dans l'exemple de l'acide faible AH en solution aqueuse, quelle est l'expression de la constante d'acidité K_a en fonction de l'avancement x_e ?": ["K_a = \\frac{x_e^2}{(cV - x_e) \\cdot c^0 V}"],
+        "Pour la dissolution du sulfate de baryum solide, quelle est l'expression de la constante de solubilité K_s ?": ["K_s = \\frac{x_e^2}{(c^0 V)^2}"],
+        "Dans l'exemple précédent, comment calcule-t-on x_e à partir de K_s ?": ["x_e = c^0 V \\sqrt{K_s}"],
+        "Pour la synthèse de l'ammoniac N_2(g) + 3H_2(g) = 2NH_3(g), avec 1 mol de N_2 et 3 mol de H_2 initialement, quelle est l'expression de K(T) en fonction de x_e, P_{tot} et P^0 ?": ["K(T) = \\frac{4x_e^2}{(1 - 3x_e)^3 (1 - x_e)} \\times \\left[ \\frac{(2 - 2x_e) P^0}{P_{tot}} \\right]^2"],
+        "Si K(T) > 10^4, comment peut-on considérer la réaction ?": ["La réaction est totale, x_e = x_{max}."],
+        "Si K(T) < 10^{-4}, quelle simplification peut-on souvent faire ?": ["On peut négliger x_e devant les termes constants, ce qui simplifie l'expression de K."],
+        "Qu'est-ce que le quotient de réaction Q_0 ?": ["C'est l'expression de la loi d'action de masse calculée avec les activités initiales."],
+        "Comment détermine-t-on le sens d'évolution d'un système chimique à l'aide de Q_0 et K ?": ["Si Q_0 < K, sens direct ; si Q_0 = K, équilibre ; si Q_0 > K, sens indirect."],
+        "Si Q_0 > K, que doit-on faire pour étudier l'évolution ?": ["Inverser l'écriture de la réaction et utiliser la nouvelle constante K' = 1/K."],
+        "Dans le tableau d'avancement de l'exemple en phase aqueuse, que vaut la quantité initiale de H_2O ?": ["Excès (ou a(H_2O)=1)."],
+        "Dans l'exemple en phase hétérogène, pourquoi l'activité du solide BaSO_4 est-elle 1 ?": ["Parce que l'activité d'un solide est toujours 1."]
+      }
     }
   }
 }
