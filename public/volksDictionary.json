@@ -1,6 +1,6 @@
 {
   "volks": {
-    "Lecon_1_Structure_atomique_l": {
+    "structure_atomique_l": {
       "characters": {
         "\\text{Qu'est-ce qu'un corps pur simple ?}": ["\\text{Un constituant unique formé d'un seul type d'élément chimique.}"],
         "\\text{Donnez un exemple de corps pur composé.}": ["H_2O"],
@@ -178,7 +178,7 @@
         "\\text{Comment calcule-t-on l'activité d'un soluté (ion, liquide, gaz dissous) ?}": ["a(X_{(\\text{soluté})}) = \\frac{[X]}{c^0} \\quad \\text{avec} \\quad c^0 = 1,0\\ \\text{mol/L}"],
         "\\text{Quelle est l'expression de l'activité d'un gaz ?}": ["a(X_{(g)}) = \\frac{n(X)}{n_{\\text{tot gaz}}} \\times \\frac{P_{\\text{tot}}}{P^0} \\quad \\text{avec} \\quad P^0 = 1,0\\ \\text{bar}"],
         "\\text{Énoncez la loi d'action de masse pour un équilibre }aA + bB = cC + dD\\text{.}": ["K(T) = \\frac{a(C)_e^c \\times a(D)_e^d}{a(A)_e^a \\times a(B)_e^b}"],
-        "\\text{Dans l'exemple de l'acide faible }AH\\text{ en solution aqueuse, quelle est l'expression de la constante d'acidité }K_a\\text{ en fonction de l'avancement }x_e\\text{ ?}": ["K_a = \\frac{x_e^2}{(cV - x_e) \\cdots c^0 V}"],
+        "\\text{Dans l'exemple de l'acide faible }AH\\text{ en solution aqueuse, quelle est l'expression de la constante d'acidité }K_a\\text{ en fonction de l'avancement }x_e\\text{ ?}": ["K_a = \\frac{x_e^2}{(cV - x_e) \\cdot c^0 V}"],
         "\\text{Pour la dissolution du sulfate de baryum solide, quelle est l'expression de la constante de solubilité }K_s\\text{ ?}": ["K_s = \\frac{x_e^2}{(c^0 V)^2}"],
         "\\text{Dans l'exemple précédent, comment calcule-t-on }x_e\\text{ à partir de }K_s\\text{ ?}": ["x_e = c^0 V \\sqrt{K_s}"],
         "\\text{Pour la synthèse de l'ammoniac }N_2(g) + 3H_2(g) = 2NH_3(g)\\text{, avec 1 mol de }N_2\\text{ et 3 mol de }H_2\\text{ initialement, quelle est l'expression de }K(T)\\text{ en fonction de }x_e\\text{, }P_{tot}\\text{ et }P^0\\text{ ?}": ["K(T) = \\frac{4x_e^2}{(1 - 3x_e)^3 (1 - x_e)} \\times \\left[ \\frac{(2 - 2x_e) P^0}{P_{tot}} \\right]^2"],
