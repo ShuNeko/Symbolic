@@ -190,6 +190,21 @@
         "\\text{Dans le tableau d'avancement de l'exemple en phase aqueuse, que vaut la quantité initiale de }H_2O\\text{ ?}": ["Excès (ou a(H_2O)=1)."],
         "\\text{Dans l'exemple en phase hétérogène, pourquoi l'activité du solide }BaSO_4\\text{ est-elle 1 ?}": ["Parce que l'activité d'un solide est toujours 1."]
       }
+    },
+    {
+    "acides_l":{
+       "characters": {
+         "HO_3O⁺,Cl⁻":["chlorhydrique"],
+         "HO_3O⁺,NO_3⁼":["nitrique"],
+         "HO_3O⁺,HSO_4⁼":["sulfurique"]
+       },
+      "bases_l":{
+       "characters": {
+         "Na⁺,OH⁻":["soude"],
+         "K⁺,OH⁻":["potasse"],
+         "CaOH⁺,OH⁻":["chaux"]
+       }
+    }
     }
   }
 }
