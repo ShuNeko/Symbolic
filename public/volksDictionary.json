@@ -193,9 +193,9 @@
     },
     "acides_l":{
        "characters": {
-         "HO_3O⁺,Cl⁻":["chlorhydrique"],
-         "HO_3O⁺,NO_3⁼":["nitrique"],
-         "HO_3O⁺,HSO_4⁼":["sulfurique"]
+         "HO_3O⁺ Cl⁻":["chlorhydrique"],
+         "HO_3O⁺ NO_3⁼":["nitrique"],
+         "HO_3O⁺ HSO_4⁼":["sulfurique"]
        },
     },
       "bases_l":{
