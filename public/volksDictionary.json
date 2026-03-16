@@ -200,9 +200,9 @@
        },
       "bases_l":{
        "characters": {
-         "Na⁺,OH⁻":["soude"],
-         "K⁺,OH⁻":["potasse"],
-         "CaOH⁺,OH⁻":["chaux"]
+         "Na⁺ OH⁻":["soude"],
+         "K⁺ OH⁻":["potasse"],
+         "CaOH⁺ OH⁻":["chaux"]
        }
     }
     }
